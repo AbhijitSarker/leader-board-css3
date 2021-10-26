@@ -85,7 +85,9 @@ hr {
 
 .courses {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
+
 .course img {
   width: 224.38px;
   height: 105.51px;
